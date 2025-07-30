@@ -2435,7 +2435,7 @@
     color: var(--color-gray-400);
   }
   .text-green-500 {
-    color: var(--color-green-500);
+    color: #00C8BB;
   }
   .text-red-700 {
     color: var(--color-red-700);
@@ -4177,7 +4177,7 @@ p {
         width: 100%;
         border-radius: calc(infinity * 1px);
         background-color: color-mix(in oklab, var(--color-red-500) 60%, transparent);
-        animation: sk-bounce 2.0s infinite ease-in-out;
+        animation: logo-pulse 2.0s infinite ease-in-out;
       }
       .double-bounce2 {
         animation-delay: -1.0s;
@@ -4185,25 +4185,25 @@ p {
     }
   }
 }
-@keyframes sk-bounce {
-  0%, 100% {
-    transform: scale(0.0);
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
   }
   50% {
-    transform: scale(1.0);
-  }
-}
-.mover {
-  animation: mover 1.5s infinite alternate;
-}
-@keyframes mover {
-  0% {
-    transform: translateY(0);
+    transform: scale(1.05);
+    opacity: 0.9;
   }
   100% {
-    transform: translateY(10px);
+    transform: scale(1);
+    opacity: 1;
   }
 }
+
+.logo-pulse {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
 //video iframe @media (max-width: 640px) {
   [data-type] iframe, [data-type] video {
     width: 500px;
@@ -5055,7 +5055,7 @@ label {
 }
 
 .confirmation-message {
-  background: #e9fdf1;
+  background: #000000;
   padding: 20px;
   border: 1px solid #b2f1c1;
   border-radius: 8px;
@@ -5086,3 +5086,4 @@ input::placeholder,
 textarea::placeholder {
   color: #fff; /* cor dos textos de dica */
 }
+

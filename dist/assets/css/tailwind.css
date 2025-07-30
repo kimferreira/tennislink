@@ -5087,3 +5087,7 @@ textarea::placeholder {
   color: #fff; /* cor dos textos de dica */
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}

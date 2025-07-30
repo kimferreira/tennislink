@@ -4613,11 +4613,11 @@ html[dir="rtl"] {
         height: 100%;
         max-height: calc(var(--spacing) * 80);
         .nav-link {
-          color: var(--color-slate-900);
+          color: var(--color-gray-800);
         }
         .active {
           .nav-link {
-            color: var(--color-red-500);
+            color: #ffff;
           }
         }
         .menu-social {

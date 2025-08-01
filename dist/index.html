@@ -90,7 +90,7 @@
                     <div class="md:me-6">
                         <h6 class="text-green-500 uppercase text-sm font-bold tracking-wider mb-3">Tennis Link</h6>
                         <h4 class="font-bold lg:leading-normal leading-normal text-[42px] lg:text-[54px] mb-5">Conecte-se com jogadores como você!</h4>
-                        <p class="text-slate-400 text-lg max-w-xl">O aplicativo ideal para conectar jogadores, agendar partidas, subir no ranking e evoluir no esporte!</p>
+                        <p class="text-slate-400 text-lg max-w-xl">O app ideal para agendar partidas, registrar seus jogos, acompanhar sua evolução e subir seu nível.</p>
                     
                         <div class="mt-6">
                             <h6 class="text-green-500 uppercase text-sm font-bold tracking-wider mb-3">EM BREVE DISPONÍVEL EM:</h6>
@@ -108,7 +108,95 @@
             </div><!--end container-->
         </section><!--end section-->
         <!-- End -->
+        <!-- Start -->
+        <section class="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20" id="contact">
+            <div class="container relative">
+                <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
+                    <div class="lg:col-span-7 md:col-span-6">
+                        <img src="assets/images/contact.svg" alt="">
+                    </div>
 
+                    <div class="lg:col-span-5 md:col-span-6">
+                        <div class="lg:ms-5">
+                            <div class="bg-white dark:bg-slate-900 rounded-md shadow-sm dark:shadow-gray-800 p-6">
+                                <h6 class="text-green-500 uppercase text-sm font-bold tracking-wider mb-3">Pré cadastro</h6>
+                                <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Quero ser avisado!</h4>
+
+                                <form class="pre-form" id="form">
+  <div class="form-row">
+    <input type="text" name="nome" placeholder="Nome completo" required />
+    <input type="email" name="email" placeholder="E-mail" required />
+  </div>
+
+  <div class="form-row">
+    <input type="date" name="data_nascimento" required />
+    <input type="tel" name="whatsapp" placeholder="WhatsApp (com DDD)" required />
+  </div>
+
+  <div class="form-row">
+    <input type="text" name="cidade" placeholder="Cidade" required />
+    <input type="text" name="estado" placeholder="Estado" required />
+    <input type="text" name="pais" placeholder="País" required />
+  </div>
+
+  <hr>
+
+  <label>Que tipo ou nível de tênis você já jogou?</label>
+  <select id="p1" name="p1" required>
+    <option value="">Selecione</option>
+    <option value="0.040">Não jogo ainda, mas quero começar</option>
+    <option value="0.117">Tênis social/recreativo</option>
+    <option value="0.194">Ligas organizadas por clubes</option>
+    <option value="0.271">Torneios para adultos</option>
+    <option value="0.348">Ligas adultas competitivas</option>
+    <option value="0.425">Torneios juniores</option>
+    <option value="0.502">Ensino médio</option>
+    <option value="0.579">Faculdade - Outros</option>
+    <option value="0.656">Faculdade - NAIA</option>
+    <option value="0.733">Faculdade - D3</option>
+    <option value="0.810">Faculdade - D2</option>
+    <option value="0.887">Faculdade - D1</option>
+    <option value="1.000">Profissional (ATP/WTA/PTT/ITF)</option>
+  </select>
+
+  <label>Com que frequência você joga?</label>
+  <select id="p2" name="p2" required>
+    <option value="">Selecione</option>
+    <option value="0.030">Não estou jogando, mas gostaria</option>
+    <option value="0.280">Algumas vezes por ano</option>
+    <option value="0.530">Algumas vezes por mês</option>
+    <option value="0.780">Algumas vezes por semana</option>
+    <option value="1.000">A maioria dos dias</option>
+  </select>
+
+  <label>Quantas partidas você jogou nos últimos meses?</label>
+  <select id="p3" name="p3" required>
+    <option value="">Selecione</option>
+    <option value="0.030">Eu não jogo partidas</option>
+    <option value="0.3634">1 a 5 partidas</option>
+    <option value="0.6967">5 a 25 partidas</option>
+    <option value="1.000">Mais de 25 partidas</option>
+  </select>
+
+  <button type="submit" class="submit-btn">Enviar Cadastro</button>
+</form>
+
+
+  <div class="confirmation-message" style="display: none;">
+    <h3>Parabéns, sua conta foi criada!</h3>
+    <p>Você receberá uma mensagem assim que o aplicativo for lançado.</p>
+    <strong>Seu ATN estimado: <span id="atn-value">3.45</span></strong>
+  </div>
+</section>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
         <!-- Start -->
         <section class="relative md:py-24 py-16" id="features">
             <div class="container relative">
@@ -120,7 +208,11 @@
 
                     <p class="text-slate-400 max-w-xl mx-auto">Tecnologia que conecta jogadores, localiza quadras e acompanha sua evolução no tênis — tudo em um só lugar.</p>
                 </div><!--end grid-->
-
+<div class="text-center">
+  <a href="#contact" class="inline-block px-4 py-2 bg-tlink-verde text-white text-sm font-semibold rounded-full hover:bg-tlink-ciano transition">
+    Cadastre-se agora!
+  </a>
+</div>
                 <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-6 gap-6">
                     <div class="p-6 hover:shadow-xl hover:shadow-slate-100 dark:hover:shadow-slate-800 transition duration-500 rounded-3xl">
                         <div class="size-16 bg-green-500/5 text-green-500 rounded-2xl flex align-middle justify-center items-center shadow-sm">
@@ -201,6 +293,11 @@
                             <a href="#contact" class="text-green-500 text-lg font-semibold duration-500">Não fique de fora! Garanta sua posição no ranking desde o início!</a>
                             <p class="text-slate-400 max-w-xl">Automatize convites, visualize estatísticas e encontre jogos com poucos cliques. Encontre adversários próximos com base no seu nível de habilidade e localização!</p>
 
+                            <div class="text-center">
+  <a href="#contact" class="inline-block px-4 py-2 bg-tlink-verde text-white text-sm font-semibold rounded-full hover:bg-tlink-ciano transition">
+    Quero receber novidades!
+  </a>
+</div>
                             <div class="grid lg:grid-cols-2 grid-cols-1 gap-6 mt-6">
                                 <div class="group flex relative overflow-hidden p-6 rounded-md shadow-sm dark:shadow-gray-800 bg-slate-50/50 dark:bg-slate-800/20 hover:bg-green-500 dark:hover:bg-green-500 duration-500">
                                     <span class="text-green-500 group-hover:text-white text-5xl font-semibold duration-500">
@@ -227,10 +324,12 @@
                                         <i data-feather="aperture" class="size-24"></i>
                                     </div>
                                 </div>
+                                
                             </div>
-
-                    </div>
+                                                </div>
+                                                
                 </div><!--end grid-->
+                
             </div><!--end container-->
 
             <div class="container relative md:mt-24 mt-16">
@@ -253,6 +352,9 @@
                                 <li class="mb-1 flex"><i class="mdi mdi-check text-green-500 text-xl me-2"></i> Encontre quadras próximas com avaliações e horários.</li>
                                 <li class="mb-1 flex"><i class="mdi mdi-check text-green-500 text-xl me-2"></i> Acompanhe sua evolução no ranking com dados em tempo real.</li>
                             </ul>
+                              <a href="#contact" class="inline-block px-4 py-2 bg-tlink-verde text-white text-sm font-semibold rounded-full hover:bg-tlink-ciano transition">
+    Quero saber mais!
+  </a>
 
 
                 </div><!--end grid-->
@@ -386,7 +488,7 @@
                                     <i data-feather="smartphone" class="me-2 text-green-500 size-10"></i>
                                     <div class="content">
                                         <h6 class="text-base font-medium">Faça seu pré-cadastro agora!</h6>
-                                        <a href="" class="hover:text-green-500 dark:hover:text-green-500 after:bg-green-500 dark:text-white transition duration-500 font-medium">Quero ser avisado! <i class="mdi mdi-arrow-right"></i></a> 
+                                        <a href="#contact" class="hover:text-green-500 dark:hover:text-green-500 after:bg-green-500 dark:text-white transition duration-500 font-medium">Quero ser avisado! <i class="mdi mdi-arrow-right"></i></a> 
                                     </div>
                                 </div>
                             </div>
@@ -399,95 +501,7 @@
 
 
 
-        <!-- Start -->
-        <section class="relative md:py-24 py-16 bg-slate-50/50 dark:bg-slate-800/20" id="contact">
-            <div class="container relative">
-                <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
-                    <div class="lg:col-span-7 md:col-span-6">
-                        <img src="assets/images/contact.svg" alt="">
-                    </div>
 
-                    <div class="lg:col-span-5 md:col-span-6">
-                        <div class="lg:ms-5">
-                            <div class="bg-white dark:bg-slate-900 rounded-md shadow-sm dark:shadow-gray-800 p-6">
-                                <h6 class="text-green-500 uppercase text-sm font-bold tracking-wider mb-3">Pré cadastro</h6>
-                                <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Quero ser avisado!</h4>
-
-                                <form class="pre-form" id="form">
-  <div class="form-row">
-    <input type="text" name="nome" placeholder="Nome completo" required />
-    <input type="email" name="email" placeholder="E-mail" required />
-  </div>
-
-  <div class="form-row">
-    <input type="date" name="data_nascimento" required />
-    <input type="tel" name="whatsapp" placeholder="WhatsApp (com DDD)" required />
-  </div>
-
-  <div class="form-row">
-    <input type="text" name="cidade" placeholder="Cidade" required />
-    <input type="text" name="estado" placeholder="Estado" required />
-    <input type="text" name="pais" placeholder="País" required />
-  </div>
-
-  <hr>
-
-  <label>Que tipo ou nível de tênis você já jogou?</label>
-  <select id="p1" name="p1" required>
-    <option value="">Selecione</option>
-    <option value="0.040">Não jogo ainda, mas quero começar</option>
-    <option value="0.117">Tênis social/recreativo</option>
-    <option value="0.194">Ligas organizadas por clubes</option>
-    <option value="0.271">Torneios para adultos</option>
-    <option value="0.348">Ligas adultas competitivas</option>
-    <option value="0.425">Torneios juniores</option>
-    <option value="0.502">Ensino médio</option>
-    <option value="0.579">Faculdade - Outros</option>
-    <option value="0.656">Faculdade - NAIA</option>
-    <option value="0.733">Faculdade - D3</option>
-    <option value="0.810">Faculdade - D2</option>
-    <option value="0.887">Faculdade - D1</option>
-    <option value="1.000">Profissional (ATP/WTA/PTT/ITF)</option>
-  </select>
-
-  <label>Com que frequência você joga?</label>
-  <select id="p2" name="p2" required>
-    <option value="">Selecione</option>
-    <option value="0.030">Não estou jogando, mas gostaria</option>
-    <option value="0.280">Algumas vezes por ano</option>
-    <option value="0.530">Algumas vezes por mês</option>
-    <option value="0.780">Algumas vezes por semana</option>
-    <option value="1.000">A maioria dos dias</option>
-  </select>
-
-  <label>Quantas partidas você jogou nos últimos meses?</label>
-  <select id="p3" name="p3" required>
-    <option value="">Selecione</option>
-    <option value="0.030">Eu não jogo partidas</option>
-    <option value="0.3634">1 a 5 partidas</option>
-    <option value="0.6967">5 a 25 partidas</option>
-    <option value="1.000">Mais de 25 partidas</option>
-  </select>
-
-  <button type="submit" class="submit-btn">Enviar Cadastro</button>
-</form>
-
-
-  <div class="confirmation-message" style="display: none;">
-    <h3>Parabéns, sua conta foi criada!</h3>
-    <p>Você receberá uma mensagem assim que o aplicativo for lançado.</p>
-    <strong>Seu ATN estimado: <span id="atn-value">3.45</span></strong>
-  </div>
-</section>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end container-->
-        </section><!--end section-->
-        <!-- End -->
 
 
 

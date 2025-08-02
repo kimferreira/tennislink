@@ -5077,14 +5077,14 @@ textarea:focus {
 input,
 select,
 textarea {
-  color: white; /* ou outro tom claro que combine com o fundo escuro */
-  background-color: #2651ad; /* cor escura do fundo, opcional */
+  color: rgb(0, 0, 0); /* ou outro tom claro que combine com o fundo escuro */
+  background-color: #ffffff; /* cor escura do fundo, opcional */
   border: 1px solid #00A9E0; /* opcional: cor da borda */
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: #fff; /* cor dos textos de dica */
+  color: #000000; /* cor dos textos de dica */
 }
 
 html, body {

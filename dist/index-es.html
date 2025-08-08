@@ -576,7 +576,7 @@
 
     // Fórmula real
     const atn = (p1 * 24) + (p2 * 18) + (p3 * 18);
-    const atnFinal = atn.toFixed(2);
+    let atnFinal = Math.max(6, Math.min(60, parseFloat(atn.toFixed(2))));
 
     // Mostrar resultado
     document.querySelector('.confirmation-message').style.display = 'block';
@@ -606,7 +606,7 @@
     }
 
     const atn = (p1 * 24) + (p2 * 18) + (p3 * 18);
-    const atnFinal = parseFloat(atn.toFixed(2));
+    let atnFinal = Math.max(6, Math.min(60, parseFloat(atn.toFixed(2))));
 
     document.getElementById('atn-value').textContent = atnFinal;
     document.querySelector('.confirmation-message').style.display = 'block';
